@@ -1,0 +1,8 @@
+D:\.net projects\Circular Queue\Circular Queue\bin\Debug\Circular Queue.exe.config
+D:\.net projects\Circular Queue\Circular Queue\bin\Debug\Circular Queue.exe
+D:\.net projects\Circular Queue\Circular Queue\bin\Debug\Circular Queue.pdb
+D:\.net projects\Circular Queue\Circular Queue\obj\Debug\Circular Queue.csproj.AssemblyReference.cache
+D:\.net projects\Circular Queue\Circular Queue\obj\Debug\Circular Queue.csproj.SuggestedBindingRedirects.cache
+D:\.net projects\Circular Queue\Circular Queue\obj\Debug\Circular Queue.csproj.CoreCompileInputs.cache
+D:\.net projects\Circular Queue\Circular Queue\obj\Debug\Circular Queue.exe
+D:\.net projects\Circular Queue\Circular Queue\obj\Debug\Circular Queue.pdb
