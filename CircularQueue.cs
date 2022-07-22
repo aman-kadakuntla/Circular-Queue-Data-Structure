@@ -8,8 +8,10 @@ namespace Circular_Queue
 {
     internal class CircularQueue
     { 
-        int[] arr;
+        int[] arr;//array to store the elements
         int front, rear, maxSize;
+        
+        //constructor accepts the maximum size of the array and initialises the variables
         public CircularQueue(int maxSize)
         {
             arr = new int[maxSize];
@@ -17,28 +19,30 @@ namespace Circular_Queue
             rear = -1;
             this.maxSize = maxSize;
         }
+
+        // add function takes an integer parameter, adds the element into the array and return a bool value
         public bool Add(int val)
         {
-            if(front==-1 && rear==-1)
+            if(front==-1 && rear==-1)// checks if the array is empty
             {
                 front++;
                 rear++;
-                arr[front] = val;
+                arr[front] = val;// first element is added into the array
             }
             else 
             {
                 if (front == ((rear + 1) % maxSize))
                 {
-                    return false;
+                    return false;// returns false if array is full
                 }
                 rear = (rear + 1) % maxSize;
                 arr[rear] = val;
             }
             return true;
         }
+        // delete function removes the first element i.e the front values will be changed 
         public bool Delete()
         {
-            
             if (front == maxSize - 1 && rear== maxSize-1)
             {
                 front = -1; rear = -1;
@@ -57,6 +61,8 @@ namespace Circular_Queue
             }
             return true;
         }
+        
+        //returns all the elements.
         public List<int> display()
         {
             List<int> list = new List<int>();
